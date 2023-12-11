@@ -5,7 +5,7 @@ import pandas as pd
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 # reading csv file
-lf = pd.read_csv("C:/Users/Emmanuel/Documents/MSc DA/Programming/Life Expectancy Data v2.csv")
+lf = pd.read_csv("Life Expectancy Data v2.csv")
 
 
 # homepage
